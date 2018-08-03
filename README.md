@@ -1,16 +1,15 @@
 # BUPTLogin
-
 北邮校园网网关登陆工具，适配新网关 ngw.bupt.edu.cn
 
-## 安装
 
+## 安装
 支持pip：
 ```html
 pip3 install BUPTNetLogin
 ```
 
-## 使用方法
 
+## 使用方法
 使用命令 `bnl`
 
 ```shell
@@ -41,14 +40,23 @@ user@server ~> bnl -l lt -u 用户名 -p 密码
 user@server ~> bnl -lo
 ```
 
+
 ## 更新
 ```html
 pip3 install BUPTNetLogin --upgrade
 ```
 
+
 ## 依赖库
 使用pip将自动安装以下库：
 - requests
 - lxml
+
+
+
+## 编译便携版
+- win: `.\venv\Scripts\pyinstaller -n bnl --noupx -c -F .\app\bupt_net_login.py`
+-linux: `./venv/bin/pyinstaller -n bnl --noupx -c -F ./app/bupt_net_login.py`
+
 
 > 更多请前往 [个人博客](https://www.ingbyr.com)

@@ -4,3 +4,4 @@ build/
 BUPTNetLogin.egg-info/
 dist/
 venv/
+*.spec
