@@ -1,4 +1,9 @@
 # BUPTLogin
+![](https://img.shields.io/badge/version-0.1.0-green.svg)
+![](https://img.shields.io/github/stars/ingbyr/BUPTNetLogin.svg)
+![](https://img.shields.io/github/forks/ingbyr/BUPTNetLogin.svg)
+![](https://img.shields.io/github/issues/ingbyr/BUPTNetLogin.svg)
+
 北邮校园网网关登陆工具，适配新网关 ngw.bupt.edu.cn
 
 
@@ -56,7 +61,7 @@ pip3 install BUPTNetLogin --upgrade
 
 ## 编译便携版
 - win: `.\venv\Scripts\pyinstaller -n bnl --noupx -c -F .\app\bupt_net_login.py`
--linux: `./venv/bin/pyinstaller -n bnl --noupx -c -F ./app/bupt_net_login.py`
+- linux: `./venv/bin/pyinstaller -n bnl --noupx -c -F ./app/bupt_net_login.py`
 
 
 > 更多请前往 [个人博客](https://www.ingbyr.com)
