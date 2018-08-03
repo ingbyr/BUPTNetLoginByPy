@@ -8,11 +8,9 @@
 
 
 ## 安装
-支持pip：
-```html
-pip3 install BUPTNetLogin
-```
+- 使用pip安装   `pip3 install BUPTNetLogin`
 
+- 使用便携版 [下载页面](https://github.com/ingbyr/BUPTNetLogin/releases)
 
 ## 使用方法
 使用命令 `bnl`
@@ -35,12 +33,12 @@ optional arguments:
   -v, --version         版本信息
 ```
 
-例如登陆联通网络：
+登陆联通网络举例：
 ```shell
 user@server ~> bnl -l lt -u 用户名 -p 密码
 ```
 
-例如注销网络
+注销网络举例
 ```shell
 user@server ~> bnl -lo
 ```
@@ -58,8 +56,7 @@ pip3 install BUPTNetLogin --upgrade
 - lxml
 
 
-
-## 编译便携版
+## 自行编译便携版
 - win: `.\venv\Scripts\pyinstaller -n bnl --noupx -c -F .\app\bupt_net_login.py`
 - linux: `./venv/bin/pyinstaller -n bnl --noupx -c -F ./app/bupt_net_login.py`
 
